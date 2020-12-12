@@ -5,6 +5,8 @@
 
 ----------------------------------------------------------------------------------------------------------------
 GIT VERSION CONTROL
+-to make sure some files are not added make a .gitignore file and add the names of the files you do not want to add.
+-To remove files from the staging area "git rm --cached -r ."
 -Then we do "git push -u origin master"
 -To add the files in local repository to remote we use "git remote add origin URL"
 -Git commit adds the files to local repository, github is the remote repository
