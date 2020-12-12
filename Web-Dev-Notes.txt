@@ -1,0 +1,44 @@
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------
+GIT VERSION CONTROL
+-Then we do "git push -u origin master"
+-To add the files in local repository to remote we use "git remote add origin URL"
+-Git commit adds the files to local repository, github is the remote repository
+-To check the difference between a staged file and the file in local dir use "git diff filename.txt"
+-You can use "git add ." to add all files to staging ara
+-You can use the "git log" command to check the logs of commit you made
+-To commit we use git commit -m "Message"
+-After that we commit our project to version control
+-"git status" if the file name is green you should see it as added in staging area
+-It is in the staging area that we can start tracking file changes
+-To add files to the staging area we use "git add filename.txt"
+-To access git locally, we initialize Git by "git init"
+-In bash use start to open text files
+----------------------------------------------------------------------------------------------------------------
+EJS TEMPLATE
+-EJS allows us to create layouts or partials, to add multiple pages of html without creating separate html files
+-by default post request is done in home route, so in the original app.post try to redirect to any specific page you want using flow control
+-we have to tell express the location of css file or any plain static files. For this developers create public folder to serve any css, js or html files 
+-CSS styles could not be accessed because when we use express server it serves app.js and the views folder, it does not serve local css files
+-res.redirect("/") this redirects us to the home route
+-declaring new variables inside app.post will most likely crash your web app when you submit it, because app.get is the accessed first
+-We can use javascript code in the ejs file as well, we use the marker <% code %>, this works on a line by line basis
+-res.render will have 2 arguments, first the name of ejs file, second a js object in the form of dictionary res.render("list",{today:day})
+-this marker value is sent to ejs file in res.render as a dictionary.
+-to send values of javascript variables we enclose them in markers, for ejs the marker is <%= variable %>
+-ejs file will basically contain html code, but we can send values of javascript variables in that html code 
+-In views folder we create an ejs file, which is a base template to create our web app.
+-To use view engine, we need to create a folder called views.
+-When we use ejs template we use res.render, render uses uses the view engine to render a particular page
+-ejs is not the only template to access view engine
+-To use EJS we have to set our app's view engine to ejs
+----------------------------------------------------------------------------------------------------------------
+-Right click on inspect and if you double click on text you can edit it
+-Java Script is responsible for the behaviour for the website
+-CSS are the painters and decorators of websites
+-HTML is the builder/structure of website
+
