@@ -5,6 +5,7 @@
 
 ----------------------------------------------------------------------------------------------------------------
 GIT VERSION CONTROL
+-git remote set-url origin git@github.com:username/repo.git
 -to make sure some files are not added make a .gitignore file and add the names of the files you do not want to add.
 -To remove files from the staging area "git rm --cached -r ."
 -Then we do "git push -u origin master"
